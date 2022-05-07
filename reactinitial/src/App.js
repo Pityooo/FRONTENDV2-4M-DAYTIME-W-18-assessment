@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react";
 import LoadingMask from "./components/LoadingMask";
 import Character from "./components/Character";
 import Subscription from "./components/Subscription";
