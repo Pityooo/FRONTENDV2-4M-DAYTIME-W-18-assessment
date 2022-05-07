@@ -5,9 +5,9 @@ import Subscription from "./components/Subscription";
 
 const App = () => {
 
-    let [loading, setLoading] = useState(false)
-    let [apis, setApis] = useState([])
-    let [sub, setSub] = useState(false)
+    let [loading, setLoading] = useState(false);
+    let [apis, setApis] = useState([]);
+    let [sub, setSub] = useState(false);
 
     const fetchApi = async() => {
         //const res = await fetch('https://seriescharacters.com/api/howimetyourmother');
