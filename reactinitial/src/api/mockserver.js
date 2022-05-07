@@ -41,7 +41,7 @@ export function makeServer({ environment = 'development' } = {}) {
     routes() {
       this.urlPrefix = 'https://demoapi.com';
       this.namespace = '/api';
-      this.timing = 2000
+      this.timing = 5000
 
       this.get('/series/howimetyourmother', (schema, request) => {
         return [
